@@ -14,7 +14,6 @@ from .models import Task
 # Create your views here.
 
 
-
 class CusomLoginView(LoginView):
     template_name = 'base/login.html'
     fields = '__all__'
